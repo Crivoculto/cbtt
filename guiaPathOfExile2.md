@@ -65,7 +65,8 @@ flowchart TD
     Magic -->| Orb of Augmentation <br>+1 Modificador | MagicPlus["Mágico (2 mods)"]
     MagicPlus -->| Orb of Annulment <br>-1 Modificador | Magic["Mágico (1 mod)"]
     Normal["Normal (0 mods)"] -->| Orb of Alchemy | RarePlus["Raro (4 mods)"]
-    Magic -->| Orb of Alchemy | Rare["Raro (3 mods)"]
+    Magic -->| Orb of Regal Orb | Rare["Raro (3 mods)"]
+    MagicPlus -->| Orb of Regal Orb | Rare["Raro (3 mods)"]
     Rare -->| Exalted Orb <br>+1 Modificador | RarePlus["Raro (4 mods)"]
     RarePlus -->| Exalted Orb <br>+1 Modificador | RareMega["Raro (5 mods)"]
     RareMega -->| Exalted Orb <br>+1 Modificador | RareUltra["Raro (6 mods)"]
@@ -86,6 +87,7 @@ flowchart TD
     linkStyle 5 stroke:#16a085,stroke-width:4px, color:#ffffff
     linkStyle 6 stroke:#16a085,stroke-width:4px, color:#ffffff
     linkStyle 7 stroke:#16a085,stroke-width:4px, color:#ffffff
+    linkStyle 8 stroke:#16a085,stroke-width:4px, color:#ffffff
 ```
 
 loop HealthCheck
