@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5531af13-561b-45dc-9c95-a325672a2e3c)![image](https://github.com/user-attachments/assets/fdb98286-3866-4391-9d31-c3b59c148800)# **Anatomia de um item**
+# **Anatomia de um item**
 ##  Raridades
 | Comum | Mágico | Raro | Único |
 |:---|:---|:---|:---|
