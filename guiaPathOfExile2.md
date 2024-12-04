@@ -1,4 +1,9 @@
 # Anatomia dos itens
+
+<p align="center">
+  <img src="./img/anatomiaDosItens.png" width="500">
+</p>
+
 ##  Raridades
 | Comum | Mágico | Raro | Único |
 |:---|:---|:---|:---|
