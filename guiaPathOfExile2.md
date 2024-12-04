@@ -1,4 +1,4 @@
-# **Anatomia de um item**
+![image](https://github.com/user-attachments/assets/5531af13-561b-45dc-9c95-a325672a2e3c)![image](https://github.com/user-attachments/assets/fdb98286-3866-4391-9d31-c3b59c148800)# **Anatomia de um item**
 ##  Raridades
 | Comum | Mágico | Raro | Único |
 |:---|:---|:---|:---|
@@ -6,12 +6,15 @@
 
 ## Mods e afixos
 ### Affixes
+Modificadores são divididos em duas categorias, `Prefix` e `Suffix`. Os modificadores `Prefix` não podem aparecer como `Suffix` e vice-versa.
+
 <p align="center">
   <img src="./img/itemRaroMarcado.png" width="500">
 </p>
 
-Modificadores são divididos em duas categorias, 'Prefix' e 'Suffix'. Os modificadores 'Prefix' não podem aparecer como 'Suffix' e vice-versa.
-A raridade do item define a quantos affixes um item pode ter.
+
+
+A raridade do item define a quantos `affixes` um item pode ter.
 
 | Comum | Mágico | Raro |
 |:---|:---|:---|
@@ -30,3 +33,10 @@ Os implícitos são mods especiais que vêm embutidos em certos itens, separados
 Influência o status principal do item. Ex.: Dano em armas e defesa / dodge em armaduras.
 
 ### Soquetes
+Espaço onde pode ser colocado uma `Rune` ou `Soul Core`.
+- Não podem ser removidos.
+- Máximo de 2 `socket` em armas de duas mãos e peitorais.
+- Máximo de 1 `socket` em armas de uma mão e demais peças de armadura.
+
+💎 `Soul Core` oferece buffs diferentes de `Rune` mas funciona da mesma forma. Dropam do `Trial of the Chaos God`, atividade do end-game.
+
