@@ -44,16 +44,16 @@ Espaço onde pode ser colocado uma `Rune` ou `Soul Core`.
 ## Currency / Itens de crafting
 | Img | Item |  Efeito |
 |:---|:---|:---|
-| Chaos Orb | ![Comum](img/chaosOrb.webp) | Remove um modificador aleatório e adiciona um modificador aleatório. |
-| Divine Orb |||
-| Exalted Orb |||
-| Orb of Alchemy |||
-| Orb of Annulment |||
-| Orb of Augmentation |||
-|Orb of Chance|||
-|Orb of Transmutation|||
-|Regal Orb|||
-|Vaal Orb|||
+| Chaos Orb | ![Chaos Orb](img/chaosOrb.webp) | Remove um modificador aleatório e adiciona um modificador aleatório. |
+| Divine Orb | ![Divine Orb](img/divineOrb.webp) | Randomiza os valores numéricos de um item. |
+| Exalted Orb | ![Exalted Orb](img/exaltedOrb.webp) | Adiciona um modificador aleatório a um <ins>item raro</ins>. |
+| Orb of Alchemy | ![Orb of Alchemy](img/orbOfAlchemy.webp) | Atualiza um item <ins>normal</ins> para um item raro com 4 modificadores. |
+| Orb of Annulment | ![Orb of Annulment](img/orbOfAnnulment.webp) | Remove um modificador aleatório. |
+| Orb of Augmentation | ![Orb of Augmentation](img/orbOfAugmentation.webp) | Adiciona um modificador aleatório a um <ins>item mágico</ins> |
+| Orb of Chance | ![Orb of Chance](img/orbOfChance.webp) | Transforma um item <ins>normal</ins> em um item mágico, raro ou único de forma aleatória. |
+| Orb of Transmutation | ![Orb of Transmutation](img/orbOfTransmutation.webp) | Transforma um item <ins>normal</ins> em um item mágico com um modificador |
+| Regal Orb | ![Regal Orb](img/regalOrb.webp) | Transforma um item <ins>normal</ins> em um item raro |
+| Vaal Orb | ![Vaal Orb](img/vaalOrb.webp) | Modifica o item de forma imprevisível e única. Adiciona [corrupção](#vaal-orb) o item. |
 
 
 
