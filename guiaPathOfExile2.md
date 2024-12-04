@@ -2,4 +2,4 @@
 ##  Raridades
 | Comum | Mágico | Raro | Único |
 |:---|:---|:---|:---|
-| ![Comun](img/itemUnico.png) | ![Mágico](img/itemUnico.png) | ![Raro](img/itemUnico.png) | ![Único](img/itemUnico.png)|
+| ![Comum](img/itemComum.png) | ![Mágico](img/itemMagico.png) | ![Raro](img/itemRaro.png) | ![Único](img/itemUnico.png)|
