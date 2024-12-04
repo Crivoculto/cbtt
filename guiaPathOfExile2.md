@@ -5,7 +5,7 @@
 | ![Comum](img/itemComum.png) | ![Mágico](img/itemMagico.png) | ![Raro](img/itemRaro.png) | ![Único](img/itemUnico.png)|
 
 ## Mods / Affixes
-`Affixes` são divididos em duas categorias, `Prefix` e `Suffix`. Os modificadores `Prefix` não podem aparecer como `Suffix` e vice-versa.
+Mods, modificadores ou `Affixes` são divididos em duas categorias, `Prefix` e `Suffix`. Os modificadores `Prefix` não podem aparecer como `Suffix` e vice-versa.
 
 <p align="center">
   <img src="./img/itemRaroMarcado.png" width="500">
@@ -57,7 +57,32 @@ Espaço onde pode ser colocado uma `Rune` ou `Soul Core`.
 
 
 
-## Progressão
+## Progressão simples
+
+```mermaid
+flowchart TD
+    Normal["Normal (0 mods)"] -->|Orb of Transmutation| Magic["Magic (1 mod)"]
+    Magic -->|Orb of Augmentation <br>+1 Modificador| MagicPlus["Mágico (2 mods)"]
+    MagicPlus -->|Orb of Annulment <br>-1 Modificador| Magic["Mágico (1 mod)"]
+    Normal["Normal (0 mods)"] -->|Orb of Alchemy| RarePlus["Raro (4 mods)"]
+    Magic -->|Orb of Alchemy| Rare["Raro (3 mods)"]
+    Rare -->|Exalted Orb <br>+1 Modificador| RarePlus["Raro (4 mods)"]
+    RarePlus -->|Exalted Orb <br>+1 Modificador| RareMega["Raro (5 mods)"]
+    RareMega -->|Exalted Orb <br>+1 Modificador| RareUltra["Raro (6 mods)"]
+
+    style Normal fill:#aeb6bf,stroke:#1c2833,stroke-width:3px
+    style Magic fill:#85c1e9,stroke:#1c2833,stroke-width:3px
+    style MagicPlus fill:#85c1e9,stroke:#1c2833,stroke-width:3px
+    style Rare fill:#f7dc6f,stroke:#1c2833,stroke-width:3px
+    style RarePlus fill:#f7dc6f,stroke:#1c2833,stroke-width:3px
+    style RareMega fill:#f7dc6f,stroke:#1c2833,stroke-width:3px
+    style RareUltra fill:#f7dc6f,stroke:#1c2833,stroke-width:3px
+```
+
+loop HealthCheck
+    John->>John: Fight against hypochondria
+end
+
 ## Chaos Orb
 ## Vaal Orb
 
