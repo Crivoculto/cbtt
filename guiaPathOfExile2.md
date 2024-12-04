@@ -1,4 +1,4 @@
-# Anatomia de um item
+# Anatomia dos itens
 ##  Raridades
 | Comum | Mágico | Raro | Único |
 |:---|:---|:---|:---|
