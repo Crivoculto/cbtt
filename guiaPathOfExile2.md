@@ -49,7 +49,7 @@ Espaço onde pode ser colocado uma `Rune` ou `Soul Core`.
 | Exalted Orb | ![Exalted Orb](img/exaltedOrb.webp) | Adiciona um modificador aleatório a um <ins>item raro</ins>. |
 | Orb of Alchemy | ![Orb of Alchemy](img/orbOfAlchemy.webp) | Atualiza um item <ins>normal</ins> para um item raro com 4 modificadores. |
 | Orb of Annulment | ![Orb of Annulment](img/orbOfAnnulment.webp) | Remove um modificador aleatório. |
-| Orb of Augmentation | ![Orb of Augmentation](img/orbOfAugmentation.webp) | Adiciona um modificador aleatório a um <ins>item mágico</ins> |
+| Orb of Augmentation | ![Orb of Augmentation](img/orbOfAugmentation.webp) | Adiciona um modificador aleatório a um item <ins>mágico</ins> |
 | Orb of Chance | ![Orb of Chance](img/orbOfChance.webp) | Transforma um item <ins>normal</ins> em um item mágico, raro ou único de forma aleatória. |
 | Orb of Transmutation | ![Orb of Transmutation](img/orbOfTransmutation.webp) | Transforma um item <ins>normal</ins> em um item mágico com um modificador |
 | Regal Orb | ![Regal Orb](img/regalOrb.webp) | Transforma um item <ins>normal</ins> em um item raro |
@@ -61,22 +61,31 @@ Espaço onde pode ser colocado uma `Rune` ou `Soul Core`.
 
 ```mermaid
 flowchart TD
-    Normal["Normal (0 mods)"] -->|Orb of Transmutation| Magic["Magic (1 mod)"]
-    Magic -->|Orb of Augmentation <br>+1 Modificador| MagicPlus["Mágico (2 mods)"]
-    MagicPlus -->|Orb of Annulment <br>-1 Modificador| Magic["Mágico (1 mod)"]
-    Normal["Normal (0 mods)"] -->|Orb of Alchemy| RarePlus["Raro (4 mods)"]
-    Magic -->|Orb of Alchemy| Rare["Raro (3 mods)"]
-    Rare -->|Exalted Orb <br>+1 Modificador| RarePlus["Raro (4 mods)"]
-    RarePlus -->|Exalted Orb <br>+1 Modificador| RareMega["Raro (5 mods)"]
-    RareMega -->|Exalted Orb <br>+1 Modificador| RareUltra["Raro (6 mods)"]
+    Normal["Normal (0 mods)"] -->| Orb of Transmutation | Magic["Magic (1 mod)"]
+    Magic -->| Orb of Augmentation <br>+1 Modificador | MagicPlus["Mágico (2 mods)"]
+    MagicPlus -->| Orb of Annulment <br>-1 Modificador | Magic["Mágico (1 mod)"]
+    Normal["Normal (0 mods)"] -->| Orb of Alchemy | RarePlus["Raro (4 mods)"]
+    Magic -->| Orb of Alchemy | Rare["Raro (3 mods)"]
+    Rare -->| Exalted Orb <br>+1 Modificador | RarePlus["Raro (4 mods)"]
+    RarePlus -->| Exalted Orb <br>+1 Modificador | RareMega["Raro (5 mods)"]
+    RareMega -->| Exalted Orb <br>+1 Modificador | RareUltra["Raro (6 mods)"]
 
-    style Normal fill:#aeb6bf,stroke:#1c2833,stroke-width:3px
-    style Magic fill:#85c1e9,stroke:#1c2833,stroke-width:3px
-    style MagicPlus fill:#85c1e9,stroke:#1c2833,stroke-width:3px
-    style Rare fill:#f7dc6f,stroke:#1c2833,stroke-width:3px
-    style RarePlus fill:#f7dc6f,stroke:#1c2833,stroke-width:3px
-    style RareMega fill:#f7dc6f,stroke:#1c2833,stroke-width:3px
-    style RareUltra fill:#f7dc6f,stroke:#1c2833,stroke-width:3px
+    style Normal fill:#aeb6bf,stroke:#1c2833,stroke-width:3px, font-size:16px, color:#1c2833
+    style Magic fill:#85c1e9,stroke:#1c2833,stroke-width:3px, font-size:16px, color:#1c2833
+    style MagicPlus fill:#85c1e9,stroke:#1c2833,stroke-width:3px, font-size:16px, color:#1c2833
+    style Rare fill:#f7dc6f,stroke:#1c2833,stroke-width:3px, font-size:16px, color:#1c2833
+    style RarePlus fill:#f7dc6f,stroke:#1c2833,stroke-width:3px, font-size:16px, color:#1c2833
+    style RareMega fill:#f7dc6f,stroke:#1c2833,stroke-width:3px, font-size:16px, color:#1c2833
+    style RareUltra fill:#f7dc6f,stroke:#1c2833,stroke-width:3px, font-size:16px, color:#1c2833
+
+    linkStyle 0 stroke:#16a085,stroke-width:4px, color:#ffffff
+    linkStyle 1 stroke:#16a085,stroke-width:4px, color:#ffffff
+    linkStyle 2 stroke:#c0392b,stroke-width:4px, color:#ffffff
+    linkStyle 3 stroke:#16a085,stroke-width:4px, color:#ffffff
+    linkStyle 4 stroke:#16a085,stroke-width:4px, color:#ffffff
+    linkStyle 5 stroke:#16a085,stroke-width:4px, color:#ffffff
+    linkStyle 6 stroke:#16a085,stroke-width:4px, color:#ffffff
+    linkStyle 7 stroke:#16a085,stroke-width:4px, color:#ffffff
 ```
 
 loop HealthCheck
