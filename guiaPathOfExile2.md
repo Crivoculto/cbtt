@@ -70,6 +70,13 @@ flowchart TD
     Rare -->| Exalted Orb <br>+1 Modificador | RarePlus["Raro (4 mods)"]
     RarePlus -->| Exalted Orb <br>+1 Modificador | RareMega["Raro (5 mods)"]
     RareMega -->| Exalted Orb <br>+1 Modificador | RareUltra["Raro (6 mods)"]
+    Normal -->| Orb of Chance | Magic
+    Normal -->| Orb of Chance | MagicPlus
+    Normal -->| Orb of Chance | Rare
+    Normal -->| Orb of Chance | RarePlus
+    Normal -->| Orb of Chance | RareMega
+    Normal -->| Orb of Chance | RareUltra
+
 
     style Normal fill:#aeb6bf,stroke:#1c2833,stroke-width:3px, font-size:16px, color:#1c2833
     style Magic fill:#85c1e9,stroke:#1c2833,stroke-width:3px, font-size:16px, color:#1c2833
@@ -88,15 +95,19 @@ flowchart TD
     linkStyle 6 stroke:#16a085,stroke-width:4px, color:#ffffff
     linkStyle 7 stroke:#16a085,stroke-width:4px, color:#ffffff
     linkStyle 8 stroke:#16a085,stroke-width:4px, color:#ffffff
+    linkStyle 9 stroke:#16a085,stroke-width:4px, color:#ffffff
+    linkStyle 10 stroke:#16a085,stroke-width:4px, color:#ffffff
+    linkStyle 11 stroke:#16a085,stroke-width:4px, color:#ffffff
+    linkStyle 12 stroke:#16a085,stroke-width:4px, color:#ffffff
+    linkStyle 13 stroke:#16a085,stroke-width:4px, color:#ffffff
+    linkStyle 14 stroke:#16a085,stroke-width:4px, color:#ffffff
 ```
-
-loop HealthCheck
-    John->>John: Fight against hypochondria
-end
-
-## Chaos Orb
 ## Vaal Orb
+Corrompe o item, modificando-o de forma imprevisível.
+- Itens corrompidos não podem mais ser melhorados.
+- É a última etapa do crafting para corajosos.
+- Itens únicos podem ser corrompidos.
+
+_Em construção_
 
 # Crafting no end-game
-## Essencias
-## 
