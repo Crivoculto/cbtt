@@ -13,14 +13,30 @@
 Modificadores são divididos em duas categorias, 'Prefix' e 'Suffix'. Os modificadores 'Prefix' não podem aparecer como 'Suffix' e vice-versa.
 A raridade do item define a quantos affixes um item pode ter.
 
-<div align="center" width="738">
-
 | Comum | Mágico | Raro |
 |:---|:---|:---|
 | 0 Affixes | 1-2 Affixes | 3-6 Affixes |
 
-</div>
+<div style="text-align: center; width: 100%;">
 
+<table style="margin: auto; width: 100%; border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr>
+      <th>Comum</th>
+      <th>Mágico</th>
+      <th>Raro</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0 Affixes</td>
+      <td>1-2 Affixes</td>
+      <td>3-6 Affixes</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 
 ### Encantamentos ou implícitos
