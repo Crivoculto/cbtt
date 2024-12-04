@@ -7,7 +7,7 @@
 ## Mods e afixos
 Encantamentos ou implícitos
 <p align="center">
-  <img src="./img/itemComum.png" alt="Size Limit CLI" width="738">
+  <img src="./img/itemRaroMarcado.png" alt="Size Limit CLI" width="738">
 </p>
 2. Qualidade
 3. Soquetes
