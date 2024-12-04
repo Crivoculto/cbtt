@@ -44,7 +44,7 @@ Espaço onde pode ser colocado uma `Rune` ou `Soul Core`.
 ## Currency / Itens de crafting
 | Img | Item |  Efeito |
 |:---|:---|:---|
-| Chaos Orb || Remove um modificador aleatório e adiciona um modificador aleatório. |
+| Chaos Orb | ![Comum](img/chaosOrb.webp) | Remove um modificador aleatório e adiciona um modificador aleatório. |
 | Divine Orb |||
 | Exalted Orb |||
 | Orb of Alchemy |||
